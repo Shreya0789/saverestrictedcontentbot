@@ -13,7 +13,7 @@ userbot = Client("4gbbot", api_id=API_ID, api_hash=API_HASH, session_string=STRI
 
 async def start_client():
     if not client.is_connected():
-        await client.start(bot_token=BOT_TOKEN)
+        await client.start(bot_token= "8130745349:AAHwQAgFr_DB-BeP7ZUCiyGOceut_EnsWsc")
         print("SpyLib started...")
     if STRING:
         try:
